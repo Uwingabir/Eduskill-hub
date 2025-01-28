@@ -5,12 +5,10 @@ import Navbar from "@/components/navigation";
 import Footer from "@/components/footer";
 import Image from "next/image";
 
-const teamImage = "/path/to/your/image.jpg"; // Update with the correct path to your image
 const GenerateJobPage = () => {
   return (
-    
     <div className="min-h-screen bg-gray-100 p-6">
-      < Navbar />
+      <Navbar />
       <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
         <header className="text-center mb-8">
           <h1 className="text-3xl font-bold text-blue-600">
@@ -24,7 +22,7 @@ const GenerateJobPage = () => {
         {/* Team Image */}
         <div className="flex justify-center mb-6">
           <Image
-            src={teamImage}
+            src="/images/jobb.jpg"
             alt="Our Team"
             width={500}
             height={300}
@@ -106,6 +104,7 @@ const GenerateJobPage = () => {
           </button>
         </form>
       </div>
+      <Footer />
     </div>
   );
 };

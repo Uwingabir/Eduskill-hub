@@ -1,5 +1,5 @@
 // pages/index.tsx
-"use client"
+"use client";
 
 import Head from "next/head";
 import Navbar from "../components/navigation"; // Import the Navbar component
@@ -9,7 +9,10 @@ const Home = () => {
     <div className="min-h-screen bg-gradient-to-r from-blue-50 to-blue-100">
       <Head>
         <title>Welcome to EduSkills</title>
-        <meta name="description" content="Bridging education and industry needs through skills development." />
+        <meta
+          name="description"
+          content="Bridging education and industry needs through skills development."
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -21,7 +24,8 @@ const Home = () => {
           Welcome to <span className="text-blue-800">EduSkills</span>
         </h1>
         <p className="text-lg text-gray-700 max-w-xl">
-          Empowering individuals through education and skills development. Let's bridge the gap between learning and industry needs.
+          Empowering individuals through education and skills development.{" "}
+          {"Let's"} bridge the gap between learning and industry needs.
         </p>
         <div className="mt-8">
           <a

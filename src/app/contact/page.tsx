@@ -2,17 +2,15 @@
 import Image from "next/image";
 import Navbar from "@/components/navigation";
 import Footer from "@/components/footer";
-import Layout from "@/components/Layout";
 const Contact = () => {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col items-center py-10 px-5">
-       <Navbar />
+      <Navbar />
       <h1 className="text-4xl font-bold text-gray-800 mb-5">Contact Us</h1>
       <p className="text-lg text-gray-600 mb-8 text-center max-w-2xl">
-        We'd love to hear from you! Whether you have questions about our platform, 
-        feedback, or just want to say hi, feel free to reach out.
+        We&apos;d love to hear from you! Whether you have questions about our
+        platform, feedback, or just want to say hi, feel free to reach out.
       </p>
-
       <div className="w-full max-w-4xl bg-white shadow-lg rounded-lg p-5 flex flex-wrap items-center">
         {/* Contact Form */}
         <div className="w-full md:w-1/2">
@@ -40,8 +38,7 @@ const Contact = () => {
             </button>
           </form>
         </div>
-
-        {/* Team Image */}
+        Team Image
         <div className="w-full md:w-1/2 flex justify-center mt-8 md:mt-0">
           <Image
             src="/team.jpg"
@@ -52,17 +49,15 @@ const Contact = () => {
           />
         </div>
       </div>
-
-      {/* Contact Information */}
+      Contact Information
       <div className="mt-10 text-center">
         <h2 className="text-2xl font-semibold text-gray-700">Get in Touch</h2>
-        <p className="text-gray-600 mt-2">Email: contact@yourcompany.com</p>
-        <p className="text-gray-600">Phone: +123 456 7890</p>
-        <p className="text-gray-600">Address: 123 Main St, Your City, Your Country</p>
+        <p className="text-gray-600 mt-2">Email: eduskills@gmail.com</p>
+        <p className="text-gray-600">Phone: +250782079915</p>
+        <p className="text-gray-600">Address: 123 Main St, Kigali, Rwanda</p>
       </div>
       <Footer />
     </div>
-    
   );
 };
 

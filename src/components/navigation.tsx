@@ -33,9 +33,7 @@ const Navbar: React.FC = () => {
             <Link href="/jobs" className="hover:text-blue-300">
               jobs
             </Link>
-            <Link href="/testimorials" className="hover:text-blue-300">
-              testimorials
-            </Link>
+            
           </div>
 
           {/* Mobile Menu Button */}
@@ -103,9 +101,6 @@ const Navbar: React.FC = () => {
             </Link>
             <Link href="/jobs" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700">
               jobs
-            </Link>
-            <Link href="/testemonials" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700">
-              testemonials
             </Link>
           </div>
           <Footer />

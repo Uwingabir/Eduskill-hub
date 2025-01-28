@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
 import Navbar from "@/components/navigation";
-import Image from 'next/image'
-import Link from 'next/link'
+import Image from "next/image";
+import Link from "next/link";
 
 const LoginPage = () => {
   return (
@@ -25,7 +25,9 @@ const LoginPage = () => {
         {/* Login Form */}
         <form className="space-y-4">
           <div>
-            <label htmlFor="email" className="block text-sm font-medium text-gray-600">Email</label>
+            <label htmlFor="email" className="block text-sm font-medium text-gray-600">
+              Email
+            </label>
             <input
               type="email"
               id="email"
@@ -36,7 +38,9 @@ const LoginPage = () => {
           </div>
 
           <div>
-            <label htmlFor="password" className="block text-sm font-medium text-gray-600">Password</label>
+            <label htmlFor="password" className="block text-sm font-medium text-gray-600">
+              Password
+            </label>
             <input
               type="password"
               id="password"
@@ -56,9 +60,11 @@ const LoginPage = () => {
 
         {/* Links section */}
         <div className="mt-4 text-center space-y-2">
-          <a href="#" className="text-sm text-blue-500 hover:underline block">Forgot password?</a>
+          <a href="#" className="text-sm text-blue-500 hover:underline block">
+            Forgot password?
+          </a>
           <div className="text-sm text-gray-600">
-            Don't have an account?{' '}
+            {"Don't have an account? "}
             <Link href="/signup" className="text-blue-500 hover:underline font-medium">
               Create Account
             </Link>
@@ -66,7 +72,7 @@ const LoginPage = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default LoginPage
+export default LoginPage;

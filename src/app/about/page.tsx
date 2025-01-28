@@ -1,19 +1,14 @@
 "use client";
 import React from "react";
+import Image from "next/image";
 
 import Navbar from "@/components/navigation";
 import Footer from "@/components/footer";
 
 const AboutUs: React.FC = () => {
   return (
-    
-    
     <div className="bg-gray-50 min-h-screen">
-    
       <Navbar />
-  
-    
-      
       <div className="container mx-auto px-4 py-10">
         <div className="text-center">
           <h1 className="text-4xl font-bold text-gray-800">About Us</h1>
@@ -33,55 +28,57 @@ const AboutUs: React.FC = () => {
 
           <div className="mt-8 flex flex-wrap justify-center gap-8">
             <div className="w-60 bg-white rounded-lg shadow-lg overflow-hidden">
-              <img
-                src="/team-member-1.jpg"
+              <Image
+                src="/images/Caline2.jpeg"
                 alt="Team Member 1"
+                width={240}
+                height={160}
                 className="w-full h-40 object-cover"
               />
               <div className="p-4">
                 <h3 className="text-lg font-semibold text-gray-800">
-                  John Doe
+                  Caline Uwingabire
                 </h3>
                 <p className="text-gray-600">CEO & Founder</p>
               </div>
             </div>
 
             <div className="w-60 bg-white rounded-lg shadow-lg overflow-hidden">
-              <img
-                src="/images/image1.jpeg"
+              <Image
+                src="/images/Sandrine.jpeg"
                 alt="Team Member 2"
+                width={240}
+                height={160}
                 className="w-full h-40 object-cover"
               />
               <div className="p-4">
                 <h3 className="text-lg font-semibold text-gray-800">
-                  Jane Smith
+                  Sandrine Cyuzuzo
                 </h3>
                 <p className="text-gray-600">CTO</p>
               </div>
             </div>
 
             <div className="w-60 bg-white rounded-lg shadow-lg overflow-hidden">
-              <img
-                src="/team-member-3.jpg"
+              <Image
+                src="/images/Nicole.jpeg"
                 alt="Team Member 3"
+                width={240}
+                height={160}
                 className="w-full h-40 object-cover"
               />
               <div className="p-4">
                 <h3 className="text-lg font-semibold text-gray-800">
-                  Alice Johnson
+                  Cyuzuzo Nicole
                 </h3>
-                <p className="text-gray-600">Head of Education</p>
+                <p className="text-gray-600"> HOD</p>
               </div>
             </div>
           </div>
         </div>
       </div>
       <Footer />
-      </div>
-      
-  
-
-
+    </div>
   );
 };
 

@@ -17,17 +17,20 @@ const Footer: React.FC = () => {
 
           {/* Navigation Links */}
           <div className="flex space-x-8 text-sm">
+          <a href="/Home" className="hover:text-white">
+              Home
+            </a>
             <a href="/about" className="hover:text-white">
-              About Us
+              About 
             </a>
-            <a href="/services" className="hover:text-white">
-              Services
-            </a>
-            <a href="/careers" className="hover:text-white">
-              Careers
-            </a>
-            <a href="/contact" className="hover:text-white">
+            <a href="/Contact" className="hover:text-white">
               Contact
+            </a>
+            <a href="/Courses" className="hover:text-white">
+              Courses
+            </a>
+            <a href="/Jobs" className="hover:text-white">
+              Jobs
             </a>
           </div>
         </div>
